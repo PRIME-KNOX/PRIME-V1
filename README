@@ -1,0 +1,53 @@
+<div align="center">
+
+  <!-- Animated Wave Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:10b981&height=200&section=header&text=PRIME%20WA%20BOT&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Modular%20WhatsApp%20Automation%20by%20PRIME%20LABS&descAlignY=58&descSize=18" width="100%" />
+
+  <!-- Typing Effect Tagline -->
+  <a href="https://github.com/yourusername/prime-wa-bot">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=10B981&center=true&vCenter=true&width=600&lines=Multi-Device+WhatsApp+Utility+Engine;Built+with+Node.js+%2B+Baileys+WebSockets;Fast.+Modular.+Zero+Headless+Browser." alt="Typing SVG" />
+  </a>
+
+  <br/>
+
+  <!-- Tech Stack & Status Badges -->
+  <img src="https://img.shields.io/badge/Node.js-22+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Baileys-WebSocket-10B981?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Active-blue?style=for-the-badge" />
+
+</div>
+
+---
+
+## ⚡ Live Preview
+
+<div align="center">
+  <!-- Replace with your own recorded GIF or WebP -->
+  <img src="./assets/demo.gif" alt="PRIME WA Bot Demo" width="750" />
+</div>
+
+---
+
+## 🛠️ Core Capabilities
+
+| Command | Description | Access |
+| :--- | :--- | :--- |
+| `!ping` | Checks WebSocket latency and uptime | Everyone |
+| `!echo <text>` | Repeats input text with human-paced typing delay | Everyone |
+| `!antilink` | Toggles automatic link deletion in group chats | Group Admins |
+| `!help` | Displays interactive command menu | Everyone |
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/yourusername/prime-wa-bot.git](https://github.com/yourusername/prime-wa-bot.git)
+cd prime-wa-bot
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the bot and scan the terminal QR code
+node index.js
